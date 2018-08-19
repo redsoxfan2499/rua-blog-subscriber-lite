@@ -1,0 +1,123 @@
+/* css styles for public side */
+#subscribe_form {
+  background: #FBFBFB;
+  border: 1px solid #E7E7E7;
+  padding: 15px;
+}
+#subscribe_form p {
+    font-size: 1em;
+    margin: 0px;
+}
+#subscribe_form input {
+  border: 1px solid #A5A5A5;
+  background: #fff;
+}
+
+#ruaname,
+#ruaemail {
+    color: #2A2A2A;
+    background-color: #F9F9F9;
+    border: #DCDCDC solid 1px;
+    display: block;
+    padding: 15px 25px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#subscribe_form label {
+    display: block;
+    color: #4B4B4B;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+#subscribe_form label span,
+.val_message {
+  color: #B90000;
+}
+.subscribe_btn.btn {
+  margin-top: 20px;
+  padding: 15px 35px;
+}
+.btn {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #337ab7 !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff !important;
+  border: solid 1px #2e6da4 !important;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-right: 20px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.btn:hover {
+  background-color: #196BAA !important;
+  color: #FFF;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+.subscribe-text-green,
+.fa-check-circle-o {
+  color: green;
+  font-size: 14px;
+}
+.subscribe_label {
+  text-align: center;
+}
+#successMessage {
+  padding-bottom: 110px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FBFBFB;
+  border: 1px solid #E7E7E7;
+  height: 360px;
+  text-align: center;
+  width: 100%;
+}
+#formwrapper {
+  width: 95%;
+  margin-left:10px;
+}
+#success_icon {
+  padding-bottom:5px;
+}
+.subscribe_form .success_test {
+    color: #529100;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#unsubscribe-wrapper {
+  width: 95%;
+  margin-top: 150px;
+}
+#message-container {
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+#unsubscribe-message {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+.iconspinner {
+  margin-top: 10px;
+  text-align: center;
+}

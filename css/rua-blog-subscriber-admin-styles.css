@@ -1,0 +1,180 @@
+/* css styles for admin side */
+body {
+  background-color: #f1f1f1 !important;
+}
+hr {
+ border-top: 1px solid #333 !important;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ border: 0;
+}
+
+.pagination>li {
+display: inline;
+padding:0px !important;
+margin:0px !important;
+border:none !important;
+}
+.modal-backdrop {
+  z-index: -1 !important;
+}
+/*
+Fix to show in full screen demo
+*/
+iframe
+{
+    height:700px !important;
+}
+.btn {
+display: inline-block;
+padding: 6px 12px !important;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.btn-primary {
+color: #fff !important;
+background: #428bca !important;
+border-color: #357ebd !important;
+box-shadow:none !important;
+}
+.btn-danger {
+color: #fff !important;
+background: #d9534f !important;
+border-color: #d9534f !important;
+box-shadow:none !important;
+}
+.dataTables_length {
+  padding-bottom: 10px;
+}
+.dataTables_info {
+  margin-top: 15px;
+}
+.div.dataTables_paginate {
+  margin: 0;
+}
+#export_form {
+  float: right !important;
+}
+thead, th {
+  background-color: #6f5499;
+  color: #fff;
+}
+/*Panel tabs*/
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
+.upgrade,
+.reviews {
+  background-color: #fff;
+  border: solid 1px #333;
+  padding: 10px;
+}
+.upgrade-header {
+  font-size: 18px;
+}
+.upgrade-list li {
+  list-style: none;
+  padding-left: 10px;
+}
+.btn-upgrade {
+  color: #fff !important;
+  background: #6f5499 !important;
+  border-color: #6f5499 !important;
+  box-shadow:none !important;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.btn-upgrade-sm {
+  color: #fff !important;
+  background: #6f5499 !important;
+  border-color: #6f5499 !important;
+  box-shadow:none !important;
+  padding: 3px 3px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+.dashicons-tickets {
+  width: 80px;
+  height: 80px;
+  font-size: 80px;
+  text-align: center;
+  display: block;
+  margin: -10px auto 7px;
+  color: #6f5499;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fa-heartbeat {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fa-heartbeat,
+.fa-exclamation-circle {
+  color: #6f5499;
+}
+.reviews p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.reviews-header {
+  font-size: 18px;
+}
+.review li {
+  list-style: none;
+  padding-left: 10px;
+}
+.review li a {
+  padding-left: 10px;
+}
